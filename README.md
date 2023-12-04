@@ -1,6 +1,4 @@
-# mongoliensis
-# E-commerce Back End Starter Code
-
+# NoSQL Challenge: Social Network API
 
 ## Description
 
@@ -41,6 +39,7 @@ Video Walkthrough:
 
 - Mini-Project video demonstration created by Joshua Taylor
 - Lessons and Activities provided by Coding Boot Camp at UCR Extension
+- Starter code imported from Mini-Project 18, provided by Coding Boot Camp at UCR Extension
 
 ## License
 
