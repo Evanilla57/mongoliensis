@@ -1,7 +1,7 @@
 const { User, Thought } = require("../models");
 
 module.exports = {
-    // displays all thoughts
+    // Displays all thoughts
     async getThoughts(req, res) {
       try {
         const thoughts = await Thought.find({}).populate({
@@ -13,7 +13,7 @@ module.exports = {
         res.status(500).json(err);
       }
     },
-//display single thought
+// Display single thought
 async getSingleThought(req, res) {
     try {
       const thought = await Thought.findOne({
@@ -30,7 +30,7 @@ async getSingleThought(req, res) {
       res.status(500).json(err);
     }
   },
-  //delete thought
+  // Delete thought
   async deleteThought(req, res) {
     try {
       const thought = await Thought.findOneAndRemove({
@@ -39,7 +39,7 @@ async getSingleThought(req, res) {
       if (!thought) {
         return res
           .status(404)
-          .json({ message: "could not find thought with that id!" });
+          .json({ message: "Could not find thought with that id!" });
       }
       const user = await User.findOneAndUpdate(
         { thoughts: req.params.id },
@@ -56,7 +56,7 @@ async getSingleThought(req, res) {
       res.status(500).json(err);
     }
   },
-  //create thought
+  // Create thought
   async createThought(req, res) {
     try {
       const user = await User.findOne({ _id: req.params.userId });
@@ -77,7 +77,7 @@ async getSingleThought(req, res) {
       res.status(500).json(err);
     }
   },
-  //update thought
+  // Update thought
   async updateThought(req, res) {
     try {
       const thought = await Thought.findOneAndUpdate(
@@ -95,7 +95,7 @@ async getSingleThought(req, res) {
       res.status(500).json(err);
     }
   },
-  //add a reaction
+  // Add a reaction
   async addReaction(req, res) {
     try {
       const user = await User.findOne({ _id: req.params.userId });
@@ -117,7 +117,7 @@ async getSingleThought(req, res) {
       res.status(500).json(err);
     }
   },
-  //delete a reaction
+  // Delete a reaction
   async deleteReaction(req, res) {
     try {
       const thought = await Thought.findOneAndUpdate(

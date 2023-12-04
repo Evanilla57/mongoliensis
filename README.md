@@ -41,6 +41,9 @@ Video Walkthrough:
 - Lessons and Activities provided by Coding Boot Camp at UCR Extension
 - Starter code imported from Mini-Project 18, provided by Coding Boot Camp at UCR Extension
 - Collaboration with fellow coding student, Robert Ambriz
+-Mongoose Schema Types: https://mongoosejs.com/docs/schematypes.html
+- Mongoose Validation: https://mongoosejs.com/docs/validation.html
+- How to Use findOneAndUpdate() in Mongoose: https://mongoosejs.com/docs/tutorials/findoneandupdate.html
 
 ## License
 
