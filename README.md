@@ -26,8 +26,6 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ## Usage
 
-Install dependencies: npm i
-Seed data: npm run seed
 Run application: npm start
 Open in Insomnia
 
