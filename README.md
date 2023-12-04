@@ -40,6 +40,7 @@ Video Walkthrough:
 - Mini-Project video demonstration created by Joshua Taylor
 - Lessons and Activities provided by Coding Boot Camp at UCR Extension
 - Starter code imported from Mini-Project 18, provided by Coding Boot Camp at UCR Extension
+- Collaboration with fellow coding student, Robert Ambriz
 
 ## License
 
