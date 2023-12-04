@@ -11,7 +11,7 @@ const {
 } = require("../../controllers/thoughtController");
 
 // /api/thoughts
-// get all thoughts
+// Get all thoughts
 router.route("/").get(getThoughts);
 
 // /api/thoughts/:thoughtId
